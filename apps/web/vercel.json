@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd ../.. && pnpm --filter @switchedhit/models build && pnpm --filter @switchedhit/utils build && pnpm --filter @switchedhit/match-engine build && pnpm --filter web build",
+  "installCommand": "pnpm install",
+  "framework": "nextjs"
+}
